@@ -87,3 +87,4 @@ RTL LOGIC FOR FLIPFLOPS
 TIMING DIGRAMS FOR FLIP FLOPS
 
 RESULTS
+ Implemented SR flipflop using verilog and validating their functionality using their functional tables.
