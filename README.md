@@ -12,19 +12,22 @@ THEORY
 
 SR Flip-Flop SR flip-flop operates with only positive clock transitions or negative clock transitions. Whereas, SR latch operates with enable signal. The circuit diagram of SR flip-flop is shown in the following figure.
 
-image
+<img width="641" height="413" alt="image" src="https://github.com/user-attachments/assets/5a2493a3-1a5a-4463-84e7-4dc0f46d577d" />
+
 
 This circuit has two inputs S & R and two outputs Qtt & Qtt’. The operation of SR flipflop is similar to SR Latch. But, this flip-flop affects the outputs only when positive transition of the clock signal is applied instead of active enable. The following table shows the state table of SR flip-flop.
 
-image
+<img width="613" height="321" alt="image" src="https://github.com/user-attachments/assets/adca9650-c40a-49fa-97f9-615e2dbad0cf" />
+
 
 Here, Qtt & Qt+1t+1 are present state & next state respectively. So, SR flip-flop can be used for one of these three functions such as Hold, Reset & Set based on the input conditions, when positive transition of clock signal is applied. The following table shows the characteristic table of SR flip-flop. Present Inputs Present State Next State
 
-image
+<img width="521" height="442" alt="image" src="https://github.com/user-attachments/assets/a4722ce4-c158-44ad-b195-2d5ea9b683d0" />
 
 By using three variable K-Map, we can get the simplified expression for next state, Qt+1t+1. The three variable K-Map for next state, Qt+1t+1 is shown in the following figure.
 
-image
+<img width="600" height="212" alt="image" src="https://github.com/user-attachments/assets/95869b65-8b9c-4844-9e1d-618df19aa514" />
+
 
 The maximum possible groupings of adjacent ones are already shown in the figure. Therefore, the simplified expression for next state Qt+1t+1 is Q(t+1)=S+R′Q(t)Q(t+1)=S+R′Q(t)
 
